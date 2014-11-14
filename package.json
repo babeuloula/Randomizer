@@ -1,0 +1,37 @@
+{
+  "name": "Randomizer",
+  "version": "1.0.0",
+  "description": "Renomer vos fichiers de façon aléatoire",
+  "main": "app/index.html",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/babeuloula/Randomizer.git"
+  },
+  "window": {
+    "toolbar": false,
+    "width": 800,
+    "height": 600,
+    "min_width": 800,
+    "min_height": 600,
+    "max_width": 800,
+    "max_height": 600,
+    "frame": true,
+    "fullscreen": false,
+    "resizable": false,
+    "title": "Randomizer",
+    "icon": "app/icons/48x48.png"
+  },
+  "keywords": [
+    "file",
+    "ramdom"
+  ],
+  "author": "BaBeuloula",
+  "bugs": {
+    "url": "https://github.com/babeuloula/Randomizer/issues"
+  },
+  "homepage": "https://github.com/babeuloula/Randomizer",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.10.0"
+  }
+}

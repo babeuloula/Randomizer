@@ -1,0 +1,11 @@
+.idea/
+node_modules/
+locales/
+
+ffmpegsumo.dll
+icudtl.dat
+libEGL.dll
+libGLESv2.dll
+nw.pak
+randomizer.exe
+npm-debug.log

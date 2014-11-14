@@ -1,0 +1,15 @@
+@font-face {
+    font-family : 'Ubuntu';
+    src         : url('fontface/ubuntu-l-webfont.eot');
+    src         : url('fontface/ubuntu-l-webfont.eot?#iefix') format('embedded-opentype'), url('fontface/ubuntu-l-webfont.woff') format('woff'), url('fontface/ubuntu-l-webfont.ttf') format('truetype'), url('fontface/ubuntu-l-webfont.svg#ubuntulight') format('svg');
+    font-weight : normal;
+    font-style  : normal;
+}
+
+@font-face {
+    font-family : 'Ubuntu Bold';
+    src         : url('fontface/ubuntu-m-webfont.eot');
+    src         : url('fontface/ubuntu-m-webfont.eot?#iefix') format('embedded-opentype'), url('fontface/ubuntu-m-webfont.woff') format('woff'), url('fontface/ubuntu-m-webfont.ttf') format('truetype'), url('fontface/ubuntu-m-webfont.svg#ubuntumedium') format('svg');
+    font-weight : normal;
+    font-style  : normal;
+}
