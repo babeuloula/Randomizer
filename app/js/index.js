@@ -32,6 +32,7 @@ drop.ondrop = function(e) {
         var extention = Path.extname(file);
         var filename = Path.basename(file, extention);
         var newFilename = sha1(filename);
+        newFilename = newFilename.substr(0, 12) + j;
         var dirname = Path.dirname(file);
 
         fs.renameSync(file, dirname + Path.sep + newFilename + extention);
