@@ -14,5 +14,5 @@ Installation
      
 Téléchargez Node Webkit pour votre système puis clonez le dépôt Git et installer les dépendences via npm.     
      
-`git clone https://github.com/https://github.com/babeuloula/Randomizer`          
+`git clone https://github.com/babeuloula/Randomizer.git`          
 `npm install`     
