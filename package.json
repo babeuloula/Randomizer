@@ -1,6 +1,6 @@
 {
   "name": "Randomizer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Renomer vos fichiers de façon aléatoire",
   "main": "app/index.html",
   "repository": {

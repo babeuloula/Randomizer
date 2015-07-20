@@ -7,7 +7,11 @@ Moi aussi, c'est donc pour ça que j'ai créé cette application. Vous avez just
 Changelog
 =========
      
-C'est la version 1.0 donc pour le moment rien     
+## 1.0.1     
+- Ajout d'un uniqid lors du random pour optimiser le ramdom
+
+## 1.0.0     
+- C'est la version 1.0 donc pour le moment rien     
      
 Installation
 ============
