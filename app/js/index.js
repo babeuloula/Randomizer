@@ -18,7 +18,7 @@ drop.ondragleave = function() {
 };
 drop.ondrop = function(e) {
     e.preventDefault();
-    $('body').css('cursor', 'progress');
+    jQuery('body').css('cursor', 'progress');
 
     var files = [];
     for(var i = 0; i < e.dataTransfer.files.length; i++) {
@@ -31,14 +31,14 @@ drop.ondrop = function(e) {
         var file = ramdom[j];
         var extention = Path.extname(file);
         var filename = Path.basename(file, extention);
-        var newFilename = sha1(filename);
+        var newFilename = sha1(filename + uniqid('_'));
         newFilename = newFilename.substr(0, 12) + j;
         var dirname = Path.dirname(file);
 
         fs.renameSync(file, dirname + Path.sep + newFilename + extention);
     }
 
-    $('body').css('cursor', 'default');
+    jQuery('body').css('cursor', 'default');
 
     var audio = new Audio('sound/finish.ogg');
     audio.volume = 0.2;
